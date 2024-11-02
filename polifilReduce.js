@@ -14,7 +14,7 @@ Array.prototype.reduce = customReduse
 
 // let q =[]
 let qwer = [1,2,3,4,5,6,'aerrr'].reduce((accum , item)=>{
-     accum + item
+     return accum + item
 })
 console.log(qwer)
 
